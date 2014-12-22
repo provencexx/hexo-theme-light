@@ -1,11 +1,14 @@
 menu:
-  Home: /
-  Archives: /archives
+  首页: /
+  分类: /archives
+  关于: /about
+	
 
 widgets:
-- search
 - category
-- tag
+- tagcloud
+- blogroll
+- weibo
 
 excerpt_link: Read More
 
@@ -25,7 +28,7 @@ addthis:
 fancybox: true
 
 google_analytics:
-rss:
+rss: /atom.xml
 
 comment_provider: facebook
 # Facebook comment
